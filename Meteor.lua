@@ -2,7 +2,7 @@ local Meteor1 = {}
 
 function Meteor1.load()
   Meteors = {}
-  MeteorImage = love.graphics.newImage("Meteor.png")
+  MeteorImage = love.graphics.newImage("Img/Meteor.png")
   spin = 0
   kaboom = 100
   shine = 255

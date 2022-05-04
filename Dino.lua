@@ -6,7 +6,7 @@ function Dino1.load()
   DinoImage = {}
   
   for x = 1, 8, 1 do
-    DinoImage[x] = love.graphics.newImage("Dino " .. x .. ".png")
+    DinoImage[x] = love.graphics.newImage("Img/Dino/Dino " .. x .. ".png")
   end
   
 end

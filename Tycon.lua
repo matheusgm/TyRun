@@ -7,16 +7,16 @@ function Tycon1.load()
   Tycon_anim_frame = 1
   
   for x = 1, 6, 1 do -- frames de Tycon
-    Tycon[x] = love.graphics.newImage("Tycon " .. x .. "hd.png")
+    Tycon[x] = love.graphics.newImage("Img/Tycon/Tycon " .. x .. "hd.png")
   end
   
-  power_icon_1 = love.graphics.newImage("power1.png")
+  power_icon_1 = love.graphics.newImage("Img/power1.png")
   FlameImage = {}
   for x = 1, 6, 1 do
-  FlameImage[x] = love.graphics.newImage("Flame "..x..".png")
+  FlameImage[x] = love.graphics.newImage("Img/Flame/Flame "..x..".png")
 end
   
-  BoomImage = love.graphics.newImage("Boomerang.png")
+  BoomImage = love.graphics.newImage("Img/Boomerang.png")
   
 end
 

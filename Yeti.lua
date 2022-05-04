@@ -6,7 +6,7 @@ function Yeti1.load()
   YetiImage = {}
   
   for x = 1, 4, 1 do
-    YetiImage[x] = love.graphics.newImage("yeti "..x..".png") -- carrega os frames dos yetis
+    YetiImage[x] = love.graphics.newImage("Img/Yeti/yeti "..x..".png") -- carrega os frames dos yetis
   end
   
 end

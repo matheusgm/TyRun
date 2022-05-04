@@ -26,31 +26,31 @@ Fade1.load()
   Boss1 = {x = -300, y = -100, width = 750, height = 550, speed = 100,HP = 100}
   
     
-  stage1song = love.audio.newSource("Tyrun 20.wav", "stream")
-  stage2song = love.audio.newSource("Tyrun 50.wav", "stream")
-  stage3song = love.audio.newSource("Tyrun 80.wav", "stream")
+  stage1song = love.audio.newSource("Audio/Tyrun 20.wav", "stream")
+  stage2song = love.audio.newSource("Audio/Tyrun 50.wav", "stream")
+  stage3song = love.audio.newSource("Audio/Tyrun 80.wav", "stream")
     
-  Boss1song = love.audio.newSource("Run.wav", "stream")
-  Boss2song = love.audio.newSource("Builder.wav","stream")
-  FlameEffect = love.audio.newSource("Flame.mp3", "static")
+  Boss1song = love.audio.newSource("Audio/Run.wav", "stream")
+  Boss2song = love.audio.newSource("Audio/Builder.wav","stream")
+  FlameEffect = love.audio.newSource("Audio/Flame.mp3", "static")
 
-  play_imag = {imag = love.graphics.newImage("play.png"), x = 310, y = 255}
-  gameover_imag = {imag = love.graphics.newImage("gameover.png"), x = 125, y = 200} 
-  playagain_imag = {imag = love.graphics.newImage("playagain.png"), x = 275, y = 300}
-  title_imag = { imag = love.graphics.newImage("TitleC.png"), x = -70, y = 30}
+  play_imag = {imag = love.graphics.newImage("Img/play.png"), x = 310, y = 255}
+  gameover_imag = {imag = love.graphics.newImage("Img/gameover.png"), x = 125, y = 200} 
+  playagain_imag = {imag = love.graphics.newImage("Img/playagain.png"), x = 275, y = 300}
+  title_imag = { imag = love.graphics.newImage("Img/TitleC.png"), x = -70, y = 30}
   
-  floresta_imag = love.graphics.newImage("Floresta.png")
-  gelo_imag = love.graphics.newImage("Gelo.png")
-  fire_imag = love.graphics.newImage("Fire.png")
+  floresta_imag = love.graphics.newImage("Img/Floresta.png")
+  gelo_imag = love.graphics.newImage("Img/Gelo.png")
+  fire_imag = love.graphics.newImage("Img/Fire.png")
   
-  Tycon_Att = love.graphics.newImage("Tycon Att.png")
+  Tycon_Att = love.graphics.newImage("Img/Tycon/Tycon Att.png")
   snap_itc_font = love.graphics.newFont("snap.ttf", 50)
   
   MouseClick_anim_frame = 1
   
   MouseClick = {}
   for x = 1, 2, 1 do -- frames do MouseClick
-    MouseClick[x] = love.graphics.newImage("MouseClick " .. x .. ".png")
+    MouseClick[x] = love.graphics.newImage("Img/MouseClick " .. x .. ".png")
   end
   
 
