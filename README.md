@@ -17,6 +17,6 @@ A 2D endless runner game developed in `Lua` using the `Love2D` framework.
     <a href="https://github.com/matheusgm"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
   </li>
   <li>
-    <span> Thiago Avidos Valle | </span>
+    <span> Thiago Avidos Valle  </span>
   </li>
 </ul>
