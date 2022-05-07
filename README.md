@@ -6,7 +6,8 @@ A 2D endless runner game developed in `Lua` using the `Love2D` framework.
 </p>
 
 ## Description
-
+Project developed during the Introduction to Computer Engineering course at the Pontifical Catholic University of Rio de Janeiro (PUC-Rio). 
+From a GDD (Game Design Document) created by the group, we developed the game from scratch. The game consists of going through three different environments with your character. A terrestrial environment, an ice environment and a fire environment. Each environment has its enemies, at the end of the first and second environment it has its respective boss enemy and in the third environment it is infinite.
 
 
 ## Authors
