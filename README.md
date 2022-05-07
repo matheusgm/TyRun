@@ -1,5 +1,5 @@
 # TyRun
-[![Love2D Version](https://img.shields.io/badge/Love2D-v0.10.1-ff69b4)]()  
+[![Love2D Version](https://img.shields.io/badge/Love2D-v0.10.1-ff69b4)](https://github.com/love2d/love/releases/tag/0.10.1)  
 A 2D endless runner game developed in `Lua` using the `Love2D` framework. 
 <p align="left">
   <!--<img src="" width="400" title="game_photo">-->
